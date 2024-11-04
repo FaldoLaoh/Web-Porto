@@ -55,6 +55,7 @@ li {
 
 .nav-content ul {
   display: flex;
+  flex-wrap: wra;
   gap: 10rem;
   font-size: 1.2rem;
 }
@@ -223,7 +224,7 @@ li {
 
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vh auto;
   color: #fff;
   background-color: var(--bg);
 }
@@ -233,6 +234,7 @@ li {
   margin-left: 5rem;
   margin-right: 5rem;
   gap: 4rem;
+  flex-wrap: wrap;
 }
 
 .projectCard {
@@ -280,6 +282,7 @@ footer {
 
 .footer-content {
   margin: 10rem;
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   align-items: center;
